@@ -7,10 +7,10 @@ public class MainTest {
     @Test
     public void getNumberTest(){
         //GIVEN
-        int value = 3;
+        int value = 4;
         //WHEN
         int result = Main.getNumber(value);
         //THEN
-        assertEquals(10,result);
+        assertEquals(12,result);
     }
 }
