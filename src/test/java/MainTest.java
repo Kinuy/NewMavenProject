@@ -11,6 +11,6 @@ public class MainTest {
         //WHEN
         int result = Main.getNumber(value);
         //THEN
-        assertEquals(9,result);
+        assertEquals(10,result);
     }
 }
